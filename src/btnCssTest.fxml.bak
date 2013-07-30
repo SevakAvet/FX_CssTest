@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="496.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Button id="green" fx:id="simpleButton" layoutX="23.0" layoutY="28.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="296.0" style="" text="Slide to unlock">
+      <stylesheets>
+        <URL value="file:/G:/Java/javafx-css-btns.css" />
+      </stylesheets>
+    </Button>
+    <ListView fx:id="simpleListView" layoutX="333.0" layoutY="25.0" prefHeight="200.0" prefWidth="149.0" />
+  </children>
+</AnchorPane>
